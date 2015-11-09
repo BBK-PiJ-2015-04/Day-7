@@ -2,7 +2,7 @@ public class Spy {
 	
 	public static int spyCount = 0;
 	
-	public int spyID;
+	private int spyID;
 	
 	public Spy (int spyID) {
 		spyCount++;
