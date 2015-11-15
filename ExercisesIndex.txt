@@ -20,3 +20,12 @@
  none
 
 3) Singly-Linked Lists
+
+ Main File:-
+
+ HospitalManager.java
+
+ Classes:-
+
+ Patient.java
+
