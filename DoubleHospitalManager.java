@@ -1,17 +1,20 @@
-public class HospitalManager {
+// UNDER CONSTRUCTION !!!
 
-	private Patient startList = null;
+
+public class DoubleHospitalManager {
+
+	private DoublePatient startList = null;
 	
-	public HospitalManager() {
+	public DoubleHospitalManager() {
 		this.startList = null;
 	}
 
-	public void addPatient(Patient newPatient) {
+	public void addPatient(DoublePatient newPatient) {
 		if(startList == null) {
 			this.startList = newPatient;
 		}
 		else {
-			Patient current = startList;
+			DoublePatient current = startList;
 			while (current.getNext() !=null) {
 				current = current.getNext();
 			}
@@ -27,7 +30,7 @@ public class HospitalManager {
 			startList = startList.getNext();
 		}
 		else {
-			Patient current = startList;
+			DoublePatient current = startList;
 			while (!current.getNext().getName().equals(oldPatient)) {
 				current = current.getNext();
 			}
@@ -43,7 +46,7 @@ public class HospitalManager {
 			return 1;
 		}
 		int counter = 1;
-		Patient current = startList;
+		DoublePatient current = startList;
 		while(current.getNext() != null) {
 			counter++;
 			current = current.getNext();
@@ -52,7 +55,7 @@ public class HospitalManager {
 	}
 	
 	public void prettyPrint() {
-		Patient current = startList;
+		DoublePatient current = startList;
 		System.out.println();
 		System.out.println("PATIENT LIST - Total of " + listLength() + " patients.");
 		System.out.println();

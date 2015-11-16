@@ -23,9 +23,24 @@
 
  Main File:-
 
- HospitalManager.java
+ SinglyLinkedLists.java
 
  Classes:-
 
  Patient.java
+ HospitalManager.java
 
+4) Queue length
+
+Extension of above, so the files are same.
+
+5) Doubly-Linked Lists
+
+ Main File:-
+
+ DoublyLinkedLists.java
+
+ Classes:-
+
+ DoublePatient.java
+ DoubleHospitalManager.java
