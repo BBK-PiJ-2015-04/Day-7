@@ -44,3 +44,18 @@ Extension of above, so the files are same.
 
  DoublePatient.java
  DoubleHospitalManager.java
+
+6) Circular Lists
+
+ skipped for now
+
+7) Queues (*)
+
+ Main File:-
+
+ Queues.java
+
+ Classes:-
+
+ Integers.java
+ IntegerQueue.java
