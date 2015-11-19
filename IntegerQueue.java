@@ -66,9 +66,18 @@ public class IntegerQueue {
 		else {
 			System.out.println("NUMBERS QUEUE - Total of " + size() + " numbers.");
 			System.out.println();
+			int[] nums = new int[size()];
 			for(int i = size(); i > 0; i--) {
-				System.out.println("Queue postion number " + i + " : " + current.getNumber());
+				nums[i - 1] = current.getNumber();
 				current = current.getNext();
+			}
+			for(int i = 0; i < size(); i++) {
+				if(i == 0){
+					System.out.println("Queue postion number " + (i + 1) + " : " + nums[i] + " <--- TOP OF THE QUEUE!");
+				}
+				else {
+					System.out.println("Queue postion number " + (i + 1) + " : " + nums[i]);
+				}
 			}
 		}
 	}
